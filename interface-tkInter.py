@@ -52,7 +52,7 @@ scrollbar.pack(side=tk.RIGHT, fill=tk.Y)
 output_text.config(yscrollcommand=scrollbar.set)
 
 
-
+window.mainloop()
 
 #PS: la couleur de base est blanche, grise vous pouvez la modifier en rajoutant 
 # bg_color = "#e6e6e6"    #changer la couleur souhaiter
@@ -60,4 +60,4 @@ output_text.config(yscrollcommand=scrollbar.set)
 # il faudra rajouter l'argument bg =bg_color sur le reste de la partie interface graphique pour que tout les éléments est la couleur
 
 
-window.mainloop()
+
