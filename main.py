@@ -5,6 +5,10 @@ def generPassword(length):
   password = ''.join(secrets.choice(charac) for _ in range(length))
   return password
 
+
+
+
+
 length = int(input("Entrez la taille du mot de passe souhaiter: "))
 password = generPassword(length)
 print(password)
